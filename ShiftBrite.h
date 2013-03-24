@@ -15,5 +15,5 @@ class ShiftBrite
 
     int _latchPin;
  };
- 
+
  #endif

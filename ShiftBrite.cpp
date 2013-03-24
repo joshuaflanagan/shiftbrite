@@ -19,7 +19,7 @@ void ShiftBrite::changeColor(int red, int green, int blue) {
   // Send color information
   _sendPacket(B00, red, green, blue);
   _latchDataInRegisters();
- 
+
    // Write to current control registers
   _sendPacket(B01, 120, 100, 100);
   _latchDataInRegisters();
