@@ -1,3 +1,10 @@
+/*
+ ShiftBrite.h - control a single Macetech ShiftBrite/Megabrite RGB LED
+
+ Library created by Joshua Flanagan, based on code from:
+ http://docs.macetech.com/doku.php/shiftbrite_2.0
+*/
+
 #ifndef ShiftBrite_h
 #define ShiftBrite_h
 
